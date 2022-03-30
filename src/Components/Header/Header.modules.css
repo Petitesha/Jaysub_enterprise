@@ -1,0 +1,34 @@
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navlinks{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: 'roboto';
+    color: #FF4F01;
+  }
+  .Signup{
+    font-size: 1.1rem;
+    padding: 3px 7px;
+    font-family: 'roboto';
+    background-color: #202124;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 3px;
+  text-align: center;
+  }
