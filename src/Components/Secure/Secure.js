@@ -7,7 +7,7 @@ import './Secure.modules.css';
 const Secure = (props) => {
     return (
         <div>
-            <div>
+            <div className='mainsecure' >
                 <div>
                     <div className='secure'>
                         <img src={Nounsecure} alt="Nounsecure" />
@@ -16,7 +16,7 @@ const Secure = (props) => {
                     <p> {props.content} Sed id curabitur tempus eget. Arcu rhoncus, pellentesque malesuada</p>
                 </div>
             </div>
-            <div>
+            <div className='mainsecure' >
                 <div>
                     <div className='secure'>
                         <img src={Nounreliable} alt="Nounreliable" />
@@ -25,7 +25,7 @@ const Secure = (props) => {
                     <p>Sed id curabitur tempus eget. Arcu rhoncus, pellentesque malesuada</p>
                 </div>
             </div>
-            <div>
+            <div className='mainsecure' >
                 <div>
                     <div className='secure'>
                         <img src={Nounsupport}  alt="Nounsupport" />

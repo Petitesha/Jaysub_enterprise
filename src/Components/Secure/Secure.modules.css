@@ -1,5 +1,26 @@
+@import url(//db.onlinewebfonts.com/c/0033a2fbc0329740fb86c1cfd134cb94?family=Roboto);
+
+.mainsecure{
+    margin-bottom: 40px;
+}
 .secure{
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-bottom: 20px;
+}
+.secure > img {
+    width: 10%;
+    height: 10%;
+}
+h3{
+    color:  #202124;
+    font-size: 1.5rem;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+p{
+    color:  #202124;
+    font-size: 1.1rem;
+    font-family: 'roboto';
 }
