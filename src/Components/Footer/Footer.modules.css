@@ -1,0 +1,100 @@
+
+.topfooter{
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    width: 327px;
+    height: 60px;
+    background-color: #59666D;
+    border-radius: 5px 50px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+}
+.topfooter p{
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 400;
+    color: white;
+    padding-right: 30px;
+    line-height: 23px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #FF833C;
+}
+.mainfooter{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.innermain{
+    width: 27%;
+}
+.innermain h4{
+    font-size: 20px;
+    font-family: 'roboto';
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.innermain p{
+    font-family: 'roboto';
+font-weight:400;
+font-size: 16px;
+line-height: 18.75px;
+color: #E9EAEC;
+}
+.company{
+   display: flex;
+   flex-direction: column;
+}
+.company a{
+    text-decoration: none;
+    color: white;
+    font-family: 'roboto';
+    font-weight:400;
+    font-size: 16px;
+    line-height: 35px;
+}
+.company p{
+    color: white;
+    font-family: 'roboto';
+    font-weight:400;
+    font-size: 16px; 
+    line-height: 35px; 
+}
+/* .company a:not(last-child){
+    padding-bottom: 20px;
+} */
+.footerh4{
+    font-family: 'roboto';
+    font-weight:500;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+.lastfooter{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerlast p{
+    font-family: 'roboto';
+    font-weight:500;
+    font-size: 18px;
+    color: white;
+}
+.icons{
+    padding: 30px 0px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

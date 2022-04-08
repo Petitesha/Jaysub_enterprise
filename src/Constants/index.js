@@ -5,6 +5,8 @@ import pic4 from '../Images/pic4.svg';
 import pic5 from '../Images/pic5.svg';
 import pic6 from '../Images/pic6.svg';
 
+
+
 export const investment = [
   {
     id: 1,
@@ -67,3 +69,4 @@ export const investment = [
     button: 'Proceed',
   },
 ];
+

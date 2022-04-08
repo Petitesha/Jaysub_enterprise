@@ -7,53 +7,55 @@ const Investment = ({ type, img, title, text, content, button }) => {
   switch (type) {
     case 'picfirst':
       element = (
-        <>
+        <div className='services1'>
           <div className="picfirstimg">
-            <img src={img} alt="Manipad" />
+            <img src={img} alt="images" />
           </div>
           <div className="picfirsttext">
             <h4>{title}</h4>
-            <p>{text}</p>
+            <p className="p">{text}</p>
             <p>{content}</p>
             <button>{button}</button>
           </div>
-        </>
+        </div>
       );
       break;
     case 'textfirst':
       element = (
-        <>
-          <div className="picfirsttext">
+        <div className='services1'>
+          <div className="picsectext">
             <h4>{title}</h4>
-            <p>{text}</p>
+            <p className="p">{text}</p>
             <p>{content}</p>
             <button>{button}</button>
           </div>
           <div className="picfirstimg">
             <img src={img} alt="Manipad" />
           </div>
-        </>
+        </div>
       );
       break;
     default:
       element = (
-        <>
+        <div className='services1'>
           <div className="picfirsttext">
             <h4>{title}</h4>
-            <p>{text}</p>
+            <p className="p">{text}</p>
             <p>{content}</p>
             <button>{button}</button>
           </div>
           <div className="picfirstimg">
             <img src={img} alt="Manipad" />
           </div>
-        </>
+        </div>
       );
       break;
   }
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-      {element}
+    <div className="general" >
+      <div className="innergeneral">
+        {element} 
+      </div>
     </div>
   );
 };

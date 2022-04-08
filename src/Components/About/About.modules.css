@@ -30,7 +30,7 @@
 }
 .abouth3{
     color:#FF4F01;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 30px;
 }
@@ -68,4 +68,5 @@
 .ourservices p{
     font-size: 1rem;
     font-family: 'Roboto';
+    color:#202124;
 }

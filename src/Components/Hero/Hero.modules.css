@@ -55,10 +55,10 @@
   box-shadow: 0px 10px 20px rgba(227, 228, 228, 0.18), 0px 2px 6px rgba(227, 228, 228, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 3px;
   }
-  .herolinks1 link{
+  /* .herolinks1 link{
     text-decoration: none;
-    text-align: center;
-  }
+   
+  } */
   .herolinks2 {
     width: 40%;
     color: #FF833C;
@@ -70,9 +70,9 @@
   text-align: center;
   font-size: 1.1rem;
    }
-   .herolinks2 link{
+   /* .herolinks2 link{
      text-decoration: none;
-   }
+   } */
    .herolinks3 {
    background: #202124;
   box-shadow: 0px 10px 20px rgba(227, 228, 228, 0.18), 0px 2px 6px rgba(227, 228, 228, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
@@ -83,6 +83,20 @@
    padding: 5px 7px;
    font-size: 1.1rem;
   }
-  .herolinks3 link{
+  /* .herolinks3 link{
     text-decoration: none;
+  } */
+  .herolink{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .herolink1{
+    text-decoration: none;
+    color: #FF4F01;
+   
+  }
+  .herolink2{
+    text-decoration: none;
+    color: white;
   }

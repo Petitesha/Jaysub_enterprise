@@ -1,0 +1,34 @@
+.pricecontainer{
+ width: 100%;
+}
+.innerprice{
+    width: 80%;
+    margin: auto;
+}
+.plans{
+    width: 60%;
+    margin:70px auto;
+}
+.plans h2{
+    width: 80%;
+    margin: auto;
+    font-size: 36px;
+    font-family: 'roboto';
+    font-weight: 500;
+    color: #FF833C;
+    padding-bottom: 20px;
+}
+.plans p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'roboto';
+    font-weight: 300;
+    color: #606368;
+}
+.innerplan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

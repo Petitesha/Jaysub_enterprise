@@ -1,0 +1,58 @@
+.cardcontainer{
+    width: 260px;
+    height: 409px;
+    box-shadow: 0px 10px 20px rgba(196, 196, 196, 0.18), 0px 2px 6px rgba(196, 196, 196, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.innercard{
+    width: 80%;
+    margin:0px auto;
+}
+.card1{ 
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #000000;
+}
+/* .img{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+} */
+.img  {
+    width: 65px;
+    height: 81.25px;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.card1 h4{
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 18px;
+    color: #606368;
+    padding-bottom: 20px;
+}
+.card2{
+    width: 100%;
+}
+.card2 h2{
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 22px;
+    color: #C30900;
+    padding: 20px 0px;
+}
+.card2 p{
+    color: #606368;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.card2 button{
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: none;
+}

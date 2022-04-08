@@ -1,0 +1,82 @@
+.ourservices{
+    width: 90%;
+    margin: auto ;
+    margin-bottom: 50px;
+}
+.ourservices h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    color: #FF4F01;
+}
+.ourservices p{
+    font-size: 1rem;
+    font-family: 'Roboto';
+    color:#202124;
+}
+.general{
+    width: 100%;
+    background-color: #FFF6F2;
+    margin: auto;
+}
+.innergeneral{
+    width: 90%;
+    margin: auto;
+}
+.services1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.picfirsttext{
+    width: 34%;
+}
+.picfirsttext h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FF833C;
+    margin-bottom: 40px;
+    font-family: 'roboto';
+}
+.picfirsttext p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #202124;
+    font-family: 'roboto';
+}
+.p{
+    padding-bottom: 20px;
+}
+.picfirsttext button{
+    margin-top: 20px;
+    background-color: #202124;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px rgba(227, 228, 228, 0.18), 0px 2px 6px rgba(227, 228, 228, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.picsectext{
+    width: 30%;
+}
+.picsectext h4{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FF833C;
+    margin-bottom: 40px;
+    font-family: 'roboto';
+}
+.picsectext p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #202124;
+    font-family: 'roboto';
+}
+.picsectext button{
+    margin-top: 20px;
+    background-color: #202124;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    box-shadow: 0px 10px 20px rgba(227, 228, 228, 0.18), 0px 2px 6px rgba(227, 228, 228, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}

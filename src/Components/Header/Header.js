@@ -1,6 +1,8 @@
-import Link from "../Link/Link"
+import { Link } from "react-router-dom";
 import logo from "../../Images/logo.svg"
 import './Header.modules.css'
+import Hamburger from '../../Images/hamburger.svg'
+// import reactRouterDom from "react-router-dom"
 
 
 const Header = () => {
@@ -13,22 +15,25 @@ const Header = () => {
                 <nav className="nav">
                     <ul className="navlinks">
                         <li className="Services">
-                            <Link to ="Services">Services</Link>
+                            <Link to="/" className="links">Services</Link>
                         </li>
                         <li className="Invest">
-                            <Link to ="Invest">Invest</Link>
+                            <Link to="/invest" className="links">Invest</Link>
                         </li>
                         <li className="Contact Us">
-                            <Link to ="Contact Us">Contact Us</Link>
+                            <Link to="/ContactUs" className="links">Contact Us</Link>
                         </li>
                         <li className="Log In">
-                            <Link to ="Log In">Log In</Link>
+                            <Link to="/LogIn" className="links">Log In</Link>
                         </li>
                     </ul>
                     <div className="Signup">
-                        <Link to ="Sign up">Sign Up</Link>
+                        <Link to="Signup" className="signlink">Sign Up</Link>
                     </div>
                 </nav>
+                <div className="hamburger">
+                <img src={Hamburger} alt="hamburger" />
+                </div>
             </div>
         </header>
     )
