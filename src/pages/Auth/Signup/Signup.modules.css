@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+.create{
+    padding: 40px 0px;
+    font-size: 36px;
+    font-family: 'roboto';
+    color: black;
+}
+.signdiv{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.signdiv button{
+    background-color: #202124;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+.signdiv p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #424242;
+    
+}
+.link{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color:  #FF833C;
+}

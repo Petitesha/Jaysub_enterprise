@@ -1,0 +1,91 @@
+.dashcontainer{
+    width: 100%;
+    margin: 15px 0px;
+}
+.dashheader{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.innerdash{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.credit{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kola{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard2{
+    width: 100%;
+    background-color: #FFE5D9;
+}
+.innerdash2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.homedash{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.home{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.services2{
+    width: 80%;
+    margin: auto; 
+}
+.servers{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 7px;
+}
+.servers img{
+    width: 20px;
+    height: 20px;
+}
+.serverlinks{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'roboto';
+    color: #626262;
+}
+.Dashcontent1{
+    width: 70%;
+    padding-top: 70px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}

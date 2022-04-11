@@ -1,14 +1,15 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Authlayout from '../../Layout/Authlayout/Authlayout';
+import Authlayout from '../../../Layout/Authlayout/Authlayout';
 import { Link } from "react-router-dom";
-import Forgetpassword from "../../pages/Auth/Forgotpassword";
+import './Login.modules.css';
+import Forgetpassword from "../Forgotpassword";
 
 export default function FormPropsTextFields() {
   return (
     <Authlayout>
-      <h3>Log In</h3>
+      <h3 className='create'>Log In</h3>
     <Box
       component="form"
       sx={{
@@ -29,7 +30,7 @@ export default function FormPropsTextFields() {
     <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '52ch' },
+        '& .MuiTextField-root': { m: 1, width: '100%' },
       }}
       noValidate
       autoComplete="off"
@@ -43,13 +44,13 @@ export default function FormPropsTextFields() {
         />
       </div>
     </Box>
-    <div>
-        <button>Sign Up</button>
+      <div className='login'>
+      <Link to="/Dashboard" className='button'>Log In</Link>
         <div>
-          <p>Forgot your Password?<span><Link to="/forgotpassword">Reset Password</Link></span></p>
-          <p>Don't have an account?<span><Link to="/Signup">Sign Up</Link></span></p>
+          <p>Forgot your Password?<span><Link to="/forgotpassword" className='link'>Reset Password</Link></span></p>
+          <p>Don't have an account?<span><Link to="/Signup" className='link'>Sign Up</Link></span></p>
         </div>
-    </div>
+      </div>
     </Authlayout>
   );
 }

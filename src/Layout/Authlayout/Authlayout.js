@@ -1,5 +1,6 @@
 import Logo from '../../Images/logo.svg';
 import './Authlayout.modules.css';
+import { Link } from "react-router-dom";
 
 const AuthLayout = ({ children }) => {
     return (
@@ -10,6 +11,7 @@ const AuthLayout = ({ children }) => {
                     {children}
                 </div>
             </div>
+            <Link to="/" className="back">  ← Back </Link>
       </div>
     );
   };
