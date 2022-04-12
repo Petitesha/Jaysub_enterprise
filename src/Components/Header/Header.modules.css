@@ -49,3 +49,30 @@
   .hamburger{
     display: none;
   }
+  @media screen and (max-width: 768px){
+    .container{
+      width: 100%;
+      margin-top: 0px;
+      align-items: center;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    }
+    .nav{
+      display: none;
+    }
+    .hamburger{
+      display: block;
+    }
+    .hamburger img{
+      width: 52px;
+      height: 65px;
+      margin: 20px 30px 20px 0px;
+    }
+    .logocontainer{
+      width: 40%;
+    }
+    .logocontainer > img{
+      width: 80%;
+      padding-left: 30px;
+      margin: 20px 30px 0px 20px;
+    }
+  }

@@ -32,3 +32,17 @@
     align-items: center;
     flex-wrap: wrap;
 }
+@media  screen and (max-width: 768px) {
+    .plans{
+        width: 80%;
+        margin:50px auto;
+    }
+    .plans h2{
+        font-size: 22px;
+        /* width: 80%; */
+    }
+    .plans p{
+        font-size: 14px;
+        width: 80%;
+    }
+}

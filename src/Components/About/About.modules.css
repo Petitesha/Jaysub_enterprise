@@ -59,7 +59,7 @@
     margin-bottom: 50px;
 }
 .ourservices h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Roboto';
     margin-bottom: 20px;
@@ -69,4 +69,35 @@
     font-size: 1rem;
     font-family: 'Roboto';
     color:#202124;
+}
+@media screen and (max-width: 1024px){
+    .manipad{
+        width: 20%;
+        height: 20%;
+    }
+    .abouth3{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    .abouth2{
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+    .aboutp{
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .emptydiv{
+        margin-bottom: 20px;
+    }
+    .ourservices{
+        margin-bottom: 20px;
+    }
+    .ourservices h2{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .ourservices p{
+        font-size: 1rem;
+    }
 }

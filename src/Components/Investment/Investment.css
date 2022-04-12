@@ -45,6 +45,14 @@
     color: #202124;
     font-family: 'roboto';
 }
+.picfirstimg{
+    width: 367.51px;
+    Height: 305.04px;
+}
+.picfirstimg >img{
+    width: 100%;
+    Height: 100%;
+}
 .p{
     padding-bottom: 20px;
 }
@@ -53,6 +61,7 @@
     background-color: #202124;
     color: white;
     padding: 5px 10px;
+    border: none;
     border-radius: 3px;
     box-shadow: 0px 10px 20px rgba(227, 228, 228, 0.18), 0px 2px 6px rgba(227, 228, 228, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
 }
@@ -77,6 +86,47 @@
     background-color: #202124;
     color: white;
     padding: 5px 10px;
+    border: none;
     border-radius: 3px;
     box-shadow: 0px 10px 20px rgba(227, 228, 228, 0.18), 0px 2px 6px rgba(227, 228, 228, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+@media screen and (max-width:768px){
+.picfirstimg{
+    width: 267.42px;
+    Height: 205.04px;
+}
+.picfirstimg >img{
+    width: 100%;
+    Height: 100%;
+} 
+.ourservices{
+    margin-bottom: 20px;
+}
+.ourservices h2{
+    font-size: 1.2rem;
+}
+.ourservices p{
+    font-size: 0.7rem;
+}
+.picfirsttext{
+    width: 45%;
+}
+.picsectext{
+    width: 45%;
+}
+.picfirsttext h4{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.picfirsttext p{
+    font-size: 1rem;
+}
+.picsectext h4{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.picsectext p{
+    font-size: 1rem;
+}
+    
 }

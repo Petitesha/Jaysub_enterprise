@@ -98,3 +98,47 @@ color: #E9EAEC;
     justify-content: space-between;
     align-items: center;
 }
+@media screen and (max-width: 768px){
+    .topfooter{
+        top: -30px;
+        right: 25px;
+        width: 250px;
+        height: 40px;
+    }
+    .topfooter p{
+        font-size: 14px;
+        line-height: 0px;
+    }
+    .innermain h4{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .innermain p{
+    font-size: 12px;
+    line-height: 14px;
+    color: #E9EAEC;
+    }
+    .mainfooter{
+        width: 90%;
+        margin: auto;
+        padding: 20px 0px;
+    }
+    .company a{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .company p{
+        font-size: 12px; 
+        line-height: 14px; 
+    }
+    .footerh4{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .innerlast p{
+        font-size: 14px;
+    }
+    .icons{
+        width: 25%;
+    }
+}

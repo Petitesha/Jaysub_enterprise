@@ -24,3 +24,21 @@ p{
     font-size: 1.1rem;
     font-family: 'roboto';
 }
+@media screen and (max-width: 768px){
+    .mainsecure{
+        margin-bottom: 10px;
+    }
+    .secure{
+        margin-bottom: 10px;
+    }
+    .secure > img {
+        width: 20%;
+        height: 20%;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.7rem;
+    }
+}
