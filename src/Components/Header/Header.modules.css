@@ -1,78 +1,113 @@
-.container{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  .nav{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .navlinks{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  li {
-    list-style: none;
-    font-size: 1.1rem;
-    font-family: 'roboto';
-    color: #FF4F01;
-  }
-  .Signup{
-    font-size: 1.1rem;
-    padding: 3px 7px;
-    font-family: 'roboto';
-    background-color: #202124;
-    color: white;
-    width: 5rem;
-    height: 2rem;
-    border-radius: 3px;
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlinks {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  font-size: 1.1rem;
+  font-family: "roboto";
+  color: #ff4f01;
+}
+.Signup {
+  font-size: 1.1rem;
+  padding: 3px 7px;
+  font-family: "roboto";
+  background-color: #202124;
+  color: white;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 3px;
   text-align: center;
+}
+.links {
+  font-size: 1.1rem;
+  font-family: "roboto";
+  color: #ff4f01;
+  text-decoration: none;
+}
+.signlink {
+  font-size: 1.1rem;
+  font-family: "roboto";
+  color: white;
+  text-decoration: none;
+}
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 0px;
+    align-items: center;
   }
-  .links{
-    font-size: 1.1rem;
-    font-family: 'roboto';
-    color: #FF4F01;
-    text-decoration: none;
+  header {
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
   }
-  .signlink{
-    font-size: 1.1rem;
-    font-family: 'roboto';
-    color: white;
-    text-decoration: none;
+  .navActive {
+    width: 95vw;
+    background: lightgreen;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    height: 45vh;
+    z-index: 1;
+    top: 100px;
+    right: 0;
+    left: 0;
+    transform: translateX(0%);
+    display: unset;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
   }
-  .hamburger{
-    display: none;
+  .navlinks {
+    display: grid;
+    width: 85%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 40px;
   }
-  @media screen and (max-width: 768px){
-    .container{
-      width: 100%;
-      margin-top: 0px;
-      align-items: center;
-      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
-    }
-    .nav{
-      display: none;
-    }
-    .hamburger{
-      display: block;
-    }
-    .hamburger img{
-      width: 52px;
-      height: 65px;
-      margin: 20px 30px 20px 0px;
-    }
-    .logocontainer{
-      width: 40%;
-    }
-    .logocontainer > img{
-      width: 80%;
-      padding-left: 30px;
-      margin: 20px 30px 0px 20px;
-    }
+  .Signup {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
+  .navlinks li {
+    padding: 40px 0;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger img {
+    width: 52px;
+    height: 65px;
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hamburger img {
+    width: 40px;
+    height: 40px;
+  }
+  .logo-container > img {
+    width: 90px;
+    height: 90px;
+  }
+}
