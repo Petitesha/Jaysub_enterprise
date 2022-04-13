@@ -17,7 +17,7 @@ import Dashcontent1 from '../Components/Dashcontent1/Dashcontent1';
 
 const Dashboard = () => {
     return (
-        <div>
+        <div className='main-div'>
             <div className='dashcontainer'>
                 <div className='dashheader'>
                     <div className='logo'>
