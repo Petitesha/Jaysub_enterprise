@@ -1,6 +1,7 @@
 .dashcontainer{
     width: 100%;
     margin: 15px 0px;
+    max-height: 100vh;
 }
 .dashheader{
     width: 90%;

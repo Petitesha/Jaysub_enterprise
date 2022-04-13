@@ -47,8 +47,8 @@ export default function FormPropsTextFields() {
       <div className='login'>
       <Link to="/Dashboard" className='button'>Log In</Link>
         <div>
-          <p>Forgot your Password?<span><Link to="/forgotpassword" className='link'>Reset Password</Link></span></p>
-          <p>Don't have an account?<span><Link to="/Signup" className='link'>Sign Up</Link></span></p>
+          <p>Forgot your Password?<span><Link to="/forgotpassword" className='linklog'>Reset Password</Link></span></p>
+          <p>Don't have an account?<span><Link to="/Signup" className='linklog'>Sign Up</Link></span></p>
         </div>
       </div>
     </Authlayout>

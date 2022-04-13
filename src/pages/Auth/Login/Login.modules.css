@@ -26,10 +26,26 @@
     font-size: 18px;
     color: #424242;   
 }
-.link{
+.linklog{
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
     color:  #FF833C;
     text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .login{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button{
+     margin-bottom: 20px;
+    }
+    .login p{
+        font-size: 16px;
+    }
+    .linklog{
+        font-size: 16px;
+    }
 }
