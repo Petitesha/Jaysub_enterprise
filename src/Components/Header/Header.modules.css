@@ -62,12 +62,12 @@ li {
   .nav{
     display: none;
   }
-  .navactive {
+  .navActive {
     width: 95vw;
     background: lightgreen;
     transition: 0.5s ease-in-out;
     position: absolute;
-    height: 55vh;
+    height: 45vh;
     z-index: 1;
     top: 100px;
     right: 0;

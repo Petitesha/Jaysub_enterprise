@@ -4,21 +4,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.aboutcontainer{
+/* .aboutcontainer{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 .manipad{
     width: 194.69px;
     height: 628.44px;
 }
-/* .manipad > img{
-    width: 100%;
-    height: 100%;
-} */
+
 .innerabout{
     width: 40%;
   
@@ -47,7 +43,6 @@
 .aboutsecure{
     width: 70%;
     margin-bottom: 100px;
-    /* margin: auto; */
 }
 .innersecure{
     width: 90%;
@@ -79,9 +74,7 @@
     width: 100%;
     height: 100%;
 }
-    /* .innerabout{
-        width: 60%;
-    } */
+   
     .abouth3{
         font-size: 1.2rem;
         margin-bottom: 15px;
@@ -115,10 +108,6 @@
     .innerabout{
         width: 60%;
     }
-    /* .manipad{
-        width: 25%;
-        height: 25%;
-    } */
     .abouth3{
         font-size: 1rem;
         margin-bottom: 10px;
@@ -133,4 +122,132 @@
     .emptydiv{
         margin-bottom: 10px;
     }
+} */
+
+
+.aboutcontainer{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
+.innerabout{
+    width: 35%;
+}
+.aboutsecure{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.emptydiv{
+    width: 30px;
+    border: 1.5px solid #FF4F01;
+    margin-bottom: 50px;
+    background-color: #FF4F01;
+}
+.abouth3{
+    color:#FF4F01;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.abouth2{
+    color:#202124;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.aboutp{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.ourservices{
+    width: 90%;
+    margin: auto ;
+    margin-bottom: 50px;
+}
+.ourservices h2{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    color: #FF4F01;
+}
+.ourservices p{
+    font-size: 1rem;
+    font-family: 'Roboto';
+    color:#202124;
+}
+
+@media screen and (max-width: 1024px){
+    .abouth3{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .abouth2{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .innerabout{
+        width: 40%;
+    }
+    .emptydiv{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .abouth3{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .abouth2{
+        font-size: 20px;
+    }
+    .aboutp{
+        font-size: 0.8rem;
+    }
+    .innerabout{
+        width: 60%;
+    }
+    .manipad > img{
+        width: 130px;
+    }
+    .ourservices{
+        margin-bottom: 20px;
+    }
+    .ourservices h2{
+        font-size: 1.2rem;
+    }
+    .ourservices p{
+        font-size: 0.7rem;
+    }
+    }
+    @media screen and (max-width: 425px){
+        .abouth3{
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .abouth2{
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .aboutp{
+            font-size: 0.8rem;
+            margin-bottom: 15px;
+        }
+        .innerabout{
+            width: 60%;
+        }
+        .manipad > img{
+            width: 105px;
+        }
+        .emptydiv{
+            margin-bottom: 20px;
+        }
+        .aboutcontainer{
+            width: 95%;
+        }
+    }

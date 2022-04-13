@@ -1,20 +1,4 @@
-.ourservices{
-    width: 90%;
-    margin: auto ;
-    margin-bottom: 50px;
-}
-.ourservices h2{
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'Roboto';
-    margin-bottom: 20px;
-    color: #FF4F01;
-}
-.ourservices p{
-    font-size: 1rem;
-    font-family: 'Roboto';
-    color:#202124;
-}
+
 .general{
     width: 100%;
     background-color: #FFF6F2;
@@ -99,15 +83,7 @@
     width: 100%;
     Height: 100%;
 } 
-.ourservices{
-    margin-bottom: 20px;
-}
-.ourservices h2{
-    font-size: 1.2rem;
-}
-.ourservices p{
-    font-size: 0.7rem;
-}
+
 .picfirsttext{
     width: 45%;
 }
@@ -129,4 +105,27 @@
     font-size: 1rem;
 }
     
+}
+@media screen and (max-width: 425px){
+    .innergeneral{
+        width: 95%;
+    }
+    .picfirsttext{
+        width: 100%;
+    }
+    .picsectext{
+        width: 100%;
+    }
+    .picfirsttext h4{
+        font-size: 18px;
+    }
+    .picfirsttext p{
+        font-size: 14px;
+    }
+    .picsectext h4{
+        font-size: 18px;
+    }
+    .picsectext p{
+        font-size: 14px;
+    }
 }

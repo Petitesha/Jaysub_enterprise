@@ -16,9 +16,9 @@ const About = (props) => {
                 <div className='emptydiv' ></div>
                 <p className='aboutp'>Sed id curabitur tempus eget. Arcu rhoncus, pellentesque malesuada</p>
                 <div className='aboutsecure'>
-                    <div className='innersecure' >
+                    {/* <div className='innersecure' > */}
                         <Secure />
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
