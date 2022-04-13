@@ -12,13 +12,13 @@
     /* align-items: center; */
 }
 .manipad{
-    width: 15%;
-    height: 15%;
+    width: 194.69px;
+    height: 628.44px;
 }
-.manipad > img{
+/* .manipad > img{
     width: 100%;
     height: 100%;
-}
+} */
 .innerabout{
     width: 40%;
   
@@ -72,9 +72,16 @@
 }
 @media screen and (max-width: 1024px){
     .manipad{
-        width: 20%;
-        height: 20%;
+        width: 144.69px;
+        height: 580px;
     }
+    .manipad > img{
+    width: 100%;
+    height: 100%;
+}
+    /* .innerabout{
+        width: 60%;
+    } */
     .abouth3{
         font-size: 1.2rem;
         margin-bottom: 15px;
@@ -99,5 +106,31 @@
     }
     .ourservices p{
         font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .aboutcontainer{
+        width: 80%;
+    }
+    .innerabout{
+        width: 60%;
+    }
+    /* .manipad{
+        width: 25%;
+        height: 25%;
+    } */
+    .abouth3{
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .abouth2{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .aboutp{
+        margin-bottom: 10px;
+    }
+    .emptydiv{
+        margin-bottom: 10px;
     }
 }

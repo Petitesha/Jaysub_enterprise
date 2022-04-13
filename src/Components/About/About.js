@@ -2,6 +2,7 @@ import Manipad from '../../Images/Manipad.svg';
 import './About.modules.css';
 import Secure from '../Secure/Secure';
 
+
 const About = (props) => {
   return (
       <div>
