@@ -1,7 +1,11 @@
 .main-div{
+    /* width: 100%; */
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .dashcontainer{
+   
     width: 100%;
     margin: 15px 0px;
 }
@@ -32,6 +36,7 @@
 }
 .dashboard2{
     width: 100%;
+    flex-grow: 1;
     background-color: #FFE5D9;
 }
 .innerdash2{
